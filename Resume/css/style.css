@@ -1,10 +1,211 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
 body{
-	background-color:lightgrey;
-	}
-header{
+	font: 15px/2 Arial, Helvetica, sans serif;
+	background: #ffffff;
+
 }
 
-ul{
-	padding: 5px;
-	text-align-last:right;
+/* Global */
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.btn {
+    text-transform: uppercase;
+    height: 38px;
+    background: #00a6ff;
+    border:0;
+    padding: 0 20px 0 20px;
+    color: #ffffff;
+}
+
+/*Header*/
+header{
+	background: #000547;
+	color: #ffffff;
+	min-height: 70px;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #name{
+	float: left;
+}
+
+header #name h3{
+	padding-top: 10%;
+	margin: none;
+}
+
+header nav{
+	float: right;
+	margin-top: 15px;
+}
+
+header .current a{
+	color: #00fae5;
+	font-weight: bold;
+}
+
+header a:hover, footer a:hover{
+	color: #00a6ff;
+	font-weight: bold;
+}
+
+/*Footer*/
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background: #000547;
+    text-align: center;
+}
+
+footer a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+/* Index */
+#objective{
+    margin-top: 10%;
+    width: 100%;
+    letter-spacing: 1px;
+    position: relative;
+    text-align: center;
+}
+#personalinfo{
+    padding: 25px;
+    display: inline-block;
+    width:100%;
+    position: relative;
+}
+#personalinfo h3{
+    font-size: 18px;
+    padding: 10px;
+    margin: 0px;
+    color: #333333;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #e6e6e6;
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+} 
+#personalinfo li{
+    list-style: none;
+    width: 60%;
+    float: left;
+    margin-top: 10px;
+
+}
+
+#personalinfo li span{
+    width: 30%;
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#personalinfo p{
+    margin: 0px;
+    line-height: 30px;
+}
+
+
+/* Boxes */
+#boxes{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.box{
+    float:left;
+    width: 25%;
+    padding: 10px;
+    text-align: center;    
+}
+
+.box img{
+    width: 150px;
+}
+
+
+ /* Educational Attainment */
+.table table {
+  border:2px solid;
+  border-color: #000547;
+  width: 100%;
+  max-width: 100%;
+  margin: 20px 0 20px 0;
+}
+
+.table thead,th{
+    border:2px solid;
+    border-color: #000547;
+    padding: 10px 8px;
+    text-align: center;
+}
+.table tbody, tr, td
+{
+  border: 2px solid #000547;
+  padding: 10px 8px;
+
+}
+
+/*Contact*/
+#contact{
+    background:#003547;
+    text-align: center;
+    border: 1px solid #000547;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.contact_form form, li {
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.contact_form input {
+    border: none;
+    color: #333;
+    box-shadow: none;
+    padding: 0px 20px;
+    font-size: 14px;
+    background: #ffffff;
+    width: 80%;
+    height: 30px;
+}
+
+.contact_form label{
+    font-weight: normal;
+    display: inline-block;
+    width: 80%;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.contact_form textarea {
+    display: inline-block;
+    width: 80%;
+    position: relative;
+    padding: 10px 20px;
 }
