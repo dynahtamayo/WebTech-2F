@@ -3,7 +3,7 @@
 	padding: 0px;
 }
 body{
-	font: 15px/2 Arial, Helvetica, sans serif;
+	font: 15px/2 Arial, Helvetica, sans-serif;
 	background: #ffffff;
 
 }
@@ -50,7 +50,7 @@ header #name{
 
 header #name h3{
 	padding-top: 10%;
-	margin: none;
+	margin: 0;
 }
 
 header nav{
